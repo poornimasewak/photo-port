@@ -19,7 +19,7 @@ function Nav() {
     console.log(`${name} clicked`);
   }
   return (
-    <header>
+    <header className="flex-row px-1">
       <h2>
         <a href="/">
           <span role="img" aria-label="camera">
