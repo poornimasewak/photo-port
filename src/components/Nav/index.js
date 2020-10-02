@@ -2,8 +2,6 @@ import React, { useEffect } from "react";
 import { capitalizeFirstLetter } from "../../utils/helpers";
 import '../../index.css';
 
-
-
 function Nav(props) {
   const {
     categories = [],
