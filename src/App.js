@@ -1,6 +1,7 @@
 import React from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
+import ContactForm from './components/Contact';
 import './index.css';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div>
       <Nav></Nav>
       <main>
+      <ContactForm></ContactForm>
         <About></About>
       </main>
     </div>
